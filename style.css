@@ -13,8 +13,15 @@ body {
     align-items: center;
 }
 
+/* p {
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+} */
+
 .buttons {
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
 }
