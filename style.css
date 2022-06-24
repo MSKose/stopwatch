@@ -13,3 +13,8 @@ body {
     align-items: center;
 }
 
+.buttons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
