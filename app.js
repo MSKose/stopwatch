@@ -46,9 +46,9 @@ toggleBtn.addEventListener('click', () => {
         toggleBtn.innerHTML = `<i class="fa-solid fa-circle-pause">`
         faSolid.classList.remove('fa-circle-play');
         faSolid.classList.add('fa-circle-pause');
-        myInterval = setInterval(clock, 0.5)                             // spent almost half an hour here. So I was 
+        myInterval = setInterval(clock, 10)                             // spent almost half an hour here. So I was 
         // initially declaring myInterval with let and was having initialization error in the else if part. Removing 
-        // the let I came around it cuz it's now global
+        // the let, I came around it cuz it's now global
     }
     else if (faSolid.classList.contains('fa-circle-pause')) {
         toggleBtn.innerHTML = `<i class="fa-solid fa-circle-play">`
